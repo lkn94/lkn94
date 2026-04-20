@@ -1,34 +1,66 @@
 # Lukas Knoeller
 
-I build practical systems at the intersection of **Smart Home**, **automation**, and **AI**.
+```text
+  _          _                 _  __                     _ _
+ | |   _   _| | ____ _ ___    | |/ /_ __   ___   ___| | | ___ _ __
+ | |  | | | | |/ / _` / __|   | ' /| '_ \ / _ \ / _ \ | |/ _ \ '__|
+ | |__| |_| |   < (_| \__ \   | . \| | | | (_) |  __/ | |  __/ |
+ |_____\__,_|_|\_\__,_|___/   |_|\_\_| |_|\___/ \___|_|_|\___|_|
+```
 
-My focus is not single tools, but how components work together reliably in real life:
-event flows, failure handling, maintainability, and measurable outcomes.
+```bash
+$ whoami
+lukas-knoeller
 
-## What I work on
+$ mission --focus
+build robust Smart Home + automation + AI systems that survive real life
+```
 
-- **Smart Home architecture** with Home Assistant (local-first where possible)
-- **Workflow automation** with n8n (content, SEO, QA, ops)
-- **AI-assisted engineering** for faster prototyping and iteration
-- **Operational homelab setups** for self-hosted services and experiments
+I engineer practical systems where **Home Assistant**, **n8n**, and **AI workflows** behave like one coherent platform instead of disconnected tools.
 
-## Engineering principles
+## System map
 
-- Design for long-term maintainability, not demo effects
-- Prefer explicit, observable workflows over hidden magic
-- Build systems that degrade gracefully under partial failure
-- Keep complexity structured and documented
-- Optimize for real-world usefulness
+```text
+home/
+├── home-assistant/
+│   ├── automations/
+│   ├── dashboards/
+│   └── energy-management/
+├── n8n/
+│   ├── seo-radar/
+│   ├── broken-link-checker/
+│   └── content-ops/
+├── ai/
+│   ├── prompt-workflows/
+│   └── agent-skills/
+└── homelab/
+    ├── proxmox-cluster/
+    ├── nas-storage/
+    └── observability/
+```
 
-## Current stack
+## What I optimize for
 
-`Home Assistant` · `n8n` · `JavaScript` · `PHP` · `SQL` · `APIs` · `Docker` · `Git`
+- Clear event flows, explicit triggers, and predictable side effects
+- Graceful degradation when devices, services, or APIs fail
+- Maintainable architecture over short-lived "wow" setups
+- Real household value: less manual work, more reliability
 
-## Selected links
+## Stack
+
+`Home Assistant` `n8n` `JavaScript` `PHP` `SQL` `APIs` `Docker` `Git`
+
+## Field notes
+
+- Running [hobbyblogging.de](https://hobbyblogging.de) as a practical lab for Smart Home and automation
+- Building and documenting local-first setups since 2016
+- Testing ideas in production conditions before calling them "best practice"
+
+## Links
 
 - Website: [lukasknoeller.de](https://lukasknoeller.de)
 - Blog: [hobbyblogging.de](https://hobbyblogging.de)
-- Home Assistant content: [hobbyblogging.de/home-assistant](https://hobbyblogging.de/home-assistant)
+- Home Assistant: [hobbyblogging.de/home-assistant](https://hobbyblogging.de/home-assistant)
 - n8n workflows: [hobbyblogging.de/n8n-workflow-automatisierung](https://hobbyblogging.de/n8n-workflow-automatisierung)
 
 ## Contact
